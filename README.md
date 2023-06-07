@@ -74,8 +74,8 @@ for i in range(M+1):
     p.append(f[i]/sf)         # calculating probability distribution
 
 #calculate mean
-mean=np.inner(x,p)                      # multiplying corresponding element - inner function
-EX2=np.inner(np.square(x),p)            #to find variance = ex^2 - (ex)^2
+mean=np.inner(x,p)                # multiplying corresponding element - inner function
+EX2=np.inner(np.square(x),p)      #to find variance = ex^2 - (ex)^2
 
 # variance
 var=EX2-mean**2 
@@ -90,12 +90,7 @@ print("The Standard deviation of arrival from feeder is %.3f"%SD)
 ```
 
 # Output : 
-
-5 0 1 4 2 3 7 5 5 3
-The Mean arrival rate is 3.500
-The Variance of arrival from feeder is 4.050
-The Standard deviation of arrival from feeder is 2.012
-
+![output](/op.png)
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
 
